@@ -1,0 +1,14 @@
+Git init -> initialize a folder
+Git log 
+Git status
+Git add . -> adds all files in the folder
+Git commit -m "Commit note here" -> Commits with a note
+Git diff -> gets differences between local and git repository
+Git checkout -> overrides local with existing file in git repository
+Git remote add origin "https://github.com/vlad94/FolderRepository.git" -adds the remote repository to origin
+Git push -u origin main -> pushes the file to the actual GitHub repository online
+git rm --cached -r . -> remove all cached files that you added to local repository when did git add. The "." Means all, but if you want a specific one, you can just type the name of the file.a
+git branch branchname -> creates a new branch
+git branch -> shows you all the branches
+git checkout branchname -> gets you to make changes to the branch you want
+

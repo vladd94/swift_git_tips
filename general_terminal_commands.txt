@@ -1,0 +1,129 @@
+### General System Commands
+1. `ls` - Lists files and directories in the current folder.
+   Example: `ls -la` (detailed list, including hidden files).
+
+2. `cd` - Changes the current directory.
+   Example: `cd Documents`.
+	cd .. -> go back one directory
+	cd ~ -> go to root
+
+3. `pwd` - Prints the current directory.
+
+4. `mkdir` - Creates a new directory.
+   Example: `mkdir new_folder`.
+
+5. `rm` - Deletes files or directories.
+   Example: `rm file.txt` or `rm -r folder` (recursive).
+   rm -rf example_dir - force, because it's not empty
+
+6. `cp` - Copies files or directories.
+   Example: `cp file.txt new_file.txt`.
+
+7. `mv` - Moves or renames files or directories.
+   Example: `mv file.txt new_folder/`. - move works for folders too -> move one folder to anothjer with a different name
+
+8. `open` - Opens a file or application.
+   Example: `open file.txt` or `open .` (current folder in Finder).
+
+9. `cat` - Displays the content of a file.
+   Example: `cat file.txt`.
+
+10. `touch` - Creates an empty file.
+    Example: `touch new_file.txt`.
+
+11. `find` - Searches for files.
+    Example: `find . -name "*.txt"`.
+
+12. `grep` - Searches for text in files.
+    Example: `grep "text" file.txt`.
+
+13. `top` - Displays running processes and system usage.
+
+14. `kill` - Terminates a process.
+    Example: `kill [PID]`.
+
+15. `man` - Displays the manual for a command.
+    Example: `man ls`.
+
+### Network Commands
+1. `ping` - Tests network connectivity.
+   Example: `ping google.com`.
+
+2. `ifconfig` - Displays network interface information.
+
+3. `curl` - Transfers data from or to a server.
+   Example: `curl http://example.com`.
+
+4. `scp` - Securely copies files between computers.
+   Example: `scp file.txt user@host:/path`.
+
+### System and File Permissions
+1. `chmod` - Changes file permissions.
+   Example: `chmod 755 file.sh`.
+
+2. `chown` - Changes file ownership.
+   Example: `chown user:group file.txt`.
+
+3. `sudo` - Executes a command with superuser privileges.
+   Example: `sudo apt update`.
+
+### Git Commands
+1. `git init` - Initializes a new Git repository.
+
+2. `git clone` - Clones a repository.
+   Example: `git clone https://github.com/user/repo.git`.
+
+3. `git status` - Displays the state of the working directory.
+
+4. `git add` - Stages changes for commit.
+   Example: `git add file.txt`.
+
+5. `git commit` - Saves changes to the repository.
+   Example: `git commit -m "Message"`.
+
+6. `git push` - Pushes commits to a remote repository.
+   Example: `git push origin main`.
+
+7. `git pull` - Fetches and integrates changes from a remote repository.
+
+8. `git branch` - Manages branches.
+   Example: `git branch new-branch`.
+
+9. `git checkout` - Switches to a branch or commit.
+   Example: `git checkout main`.
+
+10. `git merge` - Combines branches.
+    Example: `git merge feature-branch`.
+
+11. `git log` - Shows the commit history.
+
+12. `git diff` - Shows changes between commits or working directory.
+    Example: `git diff`.
+
+### Package Management Commands
+1. `brew` - Manages macOS packages using Homebrew.
+   Example: `brew install wget`.
+
+2. `npm` - Manages Node.js packages.
+   Example: `npm install express`.
+
+### Advanced Commands
+1. `ssh` - Connects to a remote server.
+   Example: `ssh user@host`.
+
+2. `alias` - Creates shortcuts for commands.
+   Example: `alias ll="ls -la"`.
+
+3. `df` - Displays disk space usage.
+   Example: `df -h`.
+
+4. `du` - Shows the size of directories and files.
+   Example: `du -sh folder`.
+
+5. `rsync` - Synchronizes files between systems.
+   Example: `rsync -av source/ destination/`.
+
+6. `xcode-select --install` - Installs the Xcode Command Line Tools.
+
+7. `diskutil` - Manages disks and partitions.
+   Example: `diskutil list`.
